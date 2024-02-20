@@ -1,4 +1,5 @@
 #!/bin/bash
+while true; do
 echo "Por favor, ingrese una ciudad:"
 read ciudad
 
@@ -11,3 +12,4 @@ if [ -n "$ciudad" ]; then
 else
     echo "No se encontraron esta $ciudad."
 fi 
+done
